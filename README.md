@@ -32,11 +32,11 @@ if error:
 yarn add react-select
 
 8.13-8.22
+same as 8.8-8.12 but with data in mongodb and login functionality
+
 
 react mongodb graphql saving references
 user authentication Apollo context takes token from request
-
-same as 8.8-8.12 but data is in mongodb
 
 
 launch graphql server with node library-backend.js then launch npm start
@@ -59,5 +59,11 @@ login Pimeyden tango
 password secred
 
 
+8.23-8.26 same as 8.13-8.22
+but with
+graphql subscriptions
+useSUbscription hook
 
-8.23-8.26
+and uses
+parallel promises of quering mongodb as one promise with aggregate and $group
+to solve n+1 problem
