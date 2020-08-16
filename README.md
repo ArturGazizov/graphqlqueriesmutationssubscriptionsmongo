@@ -35,6 +35,10 @@ yarn add react-select
 same as 8.8-8.12 but with data in mongodb and login functionality
 
 
+write in .env file:
+password=PASSWORD
+
+
 react mongodb graphql saving references
 user authentication Apollo context takes token from request
 
